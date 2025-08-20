@@ -14,7 +14,7 @@ SEQUENCE_LENGTH = 30                    # Last 30 days used in training
 COINS = ["bitcoin", "ethereum", "tether", "ripple"]  # Coins to consider
 
 # Telegram configuration
-BOT_TOKEN = "8366905857:AAGDjpCAU-DGeQ8PIXt_f9ddgJqyMLNMs0o"   # your bot token
+BOT_TOKEN = "YOUR_BOT_TOKEN"   # your bot token
 CHANNEL_ID = "-1003038471964"   # numeric channel ID
 
 def send_telegram_message(message: str):
